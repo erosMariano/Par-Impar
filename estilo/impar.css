@@ -1,0 +1,258 @@
+@font-face{
+    font-family: fonte1;
+    src:url("../VCR_OSD_MONO_1.001.ttf")
+}
+body{
+    background: url('../img/neve.gif');
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    position: relative;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 20px;
+    left: 31%;
+    background-color: #cecece;
+}
+#menu{
+    border:1px solid black;
+    border-radius: 20px;
+    margin: 10%;
+    margin-top: 0%;
+    margin-bottom:10%;
+    background-color: #cecece;
+    padding-bottom: 5%;
+
+}
+
+#res{
+    position: relative;
+    left: 30%;
+    margin-top: 12%;
+    font-family: fonte1;
+}
+
+
+#botao{   
+    position: relative;
+    left:80%;
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: fonte1;
+}
+
+#menina{
+    width:25%;
+}
+#computador{
+    position: relative;
+    width: 20%;
+    margin-bottom: -25%;
+    right:25%;
+    margin-top: 15%;
+
+}
+#numeroD{
+    position: relative;
+    display: block;
+    left: 29%;
+    margin-top: -10%;
+}
+
+#res2{
+    text-align: center;
+    border: 1px solid black;
+    background-color:rgba(199, 137, 240, 0.4) ;
+    border-radius: 10%;
+    position: relative;
+    left: 22%;
+    width: 50%;
+    margin-top: 12%;
+    font-family: fonte1;
+    padding: 5%;
+}
+
+#botao2{
+    position: relative;
+    left: 68%;
+    padding: 2%;
+    font-family: fonte1;
+}
+
+
+
+
+
+@media screen and (min-width: 320px){
+    #menina{
+        width: 30%;
+    }
+    #logo{
+        left: 30%;
+    }
+    #menu{
+        position: relative;
+        left: 0%;
+    }
+    #numeroD{
+        position: relative;
+        display: block;
+        left: 25%;
+        margin-top: -20%;
+    }
+    #botao2{
+        position: relative;
+        left: 55%;
+        padding: 2%;
+        margin-top:10% ;
+        font-family: fonte1;
+        display: block;
+    }
+    #computador{
+        position: relative;
+        width: 25%;
+        margin-bottom: -25%;
+        right:-7%;
+        margin-top: 0%;
+    
+    }
+    #res{
+        position: relative;
+        left: 35%;
+        margin-top: 5%;
+        font-family: fonte1;
+        font-size: 8pt;
+        font-weight: bold;
+    }
+    #menu{
+        padding-bottom: 10%;
+    }
+
+    #res2{
+        text-align: center;
+        border: 1px solid black;
+        background-color:rgba(199, 137, 240, 0.4) ;
+        border-radius: 10px;
+        position: relative;
+        left: 28%;
+        width: 40%;
+        margin-top: 25%;
+        font-family: fonte1;
+        padding: 5%;
+    }    
+    #botao{
+        padding: 2%;
+    }
+}
+
+
+@media screen and (min-width: 650px){
+    #logo{
+        position: relative;
+        width: 28%;
+        border: 1px solid black;
+        border-radius: 10px;
+        left: 37%;
+        background-color: #cecece;
+    }
+
+    #menu{
+        position: relative;
+        border:1px solid black;
+        width:30%;
+        margin-bottom: 0;
+        padding-bottom:2%;
+        padding-left: 10%;
+        padding-right: 10%;
+        left: 15%;
+    
+    }
+    #menina{
+        position: relative;
+        width:50%;
+        right: 40%;
+    }
+    #numeroD{
+        position: relative;
+        display: block;
+        left: 20%;
+        margin-top: -30%;
+    }
+    #computador{
+        position: relative;
+        width: 35%;
+        margin-bottom: -25%;
+        right:30%;
+        margin-top: 0%;
+    
+    }
+
+    #res{
+        position: relative;
+        left: 20%;
+        margin-top: 5%;
+        font-family: fonte1;
+    }
+    #botao2{
+        position: relative;
+        left: 68%;
+        padding: 5%;
+        margin-top:20% ;
+        font-family: fonte1;
+        display: block;
+    }
+    #res2{
+        border: 1px solid black;
+        background-color:rgba(199, 137, 240, 0.4) ;
+        border-radius: 10%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #logo{
+        position: relative;
+        width: 20%;
+        border: 1px solid black;
+        border-radius: 10px;
+        left: 40%;
+        background-color: #cecece;
+    }
+    #menu{
+        position: relative;
+        border:1px solid black;
+        width:20%;
+        margin-bottom: 0;
+        padding-bottom:2%;
+        padding-left: 10%;
+        padding-right: 10%;
+        left: 20%;
+    
+    }
+    #res2{
+        text-align: center;
+        border: 1px solid black;
+        background-color:rgba(199, 137, 240, 0.4) ;
+        border-radius: 10px;
+        position: relative;
+        left: 22%;
+        width: 55%;
+        margin-top: 12%;
+        font-family: fonte1;
+        padding: 5%;
+    }
+    #botao{   
+        position: relative;
+        left:83%;
+        width: 15%;
+        padding: 1%;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: fonte1;
+    }
+
+}
+
+
+
